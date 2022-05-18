@@ -2,6 +2,7 @@
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +12,7 @@
     text-decoration: none;
     z-index: 1;
 }
+
 .cover__link::before {
     content: '';
     position: absolute;
@@ -22,10 +24,7 @@
     opacity: .3;
     transition: opacity .3s ease;
 }
+
 .cover__link:hover::before {
-    background-color: #2a2c2f;
     opacity: .8;
-}
-.cover__link:hover {
-    opacity: 1;
 }
